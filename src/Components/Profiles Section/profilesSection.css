@@ -1,0 +1,32 @@
+.profile-section {
+  margin-top: 16px;
+}
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.profile-title-add-button {
+  display: flex;
+  justify-content: space-between;
+}
+.overlay {
+  position: fixed; /* Ensures the form is centered regardless of scrolling */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the viewport */
+  height: 100%; /* Full height of the viewport */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000;
+}
+.popup {
+  background-color: #fff; /* White background */
+  padding: 20px; /* Add padding for better spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Subtle shadow */
+  max-width: 320px; /* Limit the width of the form */
+  width: 100%; /* Ensure the form is responsive */
+}

@@ -1,0 +1,24 @@
+#root {
+  --primary-box-shadow: rgb(28 28 28/8%) 0px 2px 8px;
+  --border-white: rgb(232, 232, 232);
+  --primary-bg: rgb(255, 255, 255);
+  --zomato-gray: #828282;
+  --zomato-red: rgb(255, 126, 139);
+  --gray: rgb(207, 207, 207);
+  --search-icon-gray: rgb(130, 130, 130);
+  --header-username-font-color: #696969;
+  --inactive-image-background: #f8f8f8;
+  --tab-name-active-red: #ef4f5f;
+  --filter-text: #9c9c9c;
+  --heading-text-color: #1c1c1c;
+  --collection-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
+  --tag-blue: #256fef;
+  --tag-green: #267e3e;
+  --collection-subtitle-text-color: #363636;
+  --bg-gradient: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+}
